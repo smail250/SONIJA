@@ -145,9 +145,34 @@
                   <p class="map__text2">191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8<br>тел. +7 (812) 275-75-75</p>
               </div>
               <div class="map__button">
-                  <button class="map__but"><a class="button__text" href="#">напишите нам</a></button>
+                  <button class="map__but"><a class="button__text" href="#popup">напишите нам</a></button>
               </div>
           </div>
+              <div id="popup" class="popup">
+                  <div class="popup__body">
+                      <div class="popup__content">
+                          <div class="popup__title">
+                              <h2 class="section__text">Напишите нам</h2>
+                              <a class="popup__close" href="#">X</a>
+                          </div>
+                           <div class="popup__field">
+                               <div>
+                                    <p class="popup__message">Ваше имя:</p>
+                                    <input class="field" placeholder="Имя Фамилия" type="text" name="username" value="">
+                               </div>
+                               <div>
+                                   <p class="popup__message">Ваш email:</p>
+                                   <input class="field" placeholder="email@example.com" type="email" name="useremail" value="">
+                               </div>
+                           </div>
+                           <div class="popup__form">
+                              <p class="popup__message1">Текст письма:</p>
+                              <textarea class="popup__text-message" placeholder="В свободной форме" name="message"></textarea>
+                              </div>
+                           <button class="map__but popup__button" type="submit"><a class="button__text">Отправить</a></button>
+                      </div>
+                  </div>
+              </div>
       </section>
   </main>
   <footer>
