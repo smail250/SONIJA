@@ -14,7 +14,6 @@ body {
     width: 1440px;
     height: 355px;
     margin-left: -140px;
-
 }
 .menu__list-item {
     list-style-type: none;
@@ -44,8 +43,39 @@ body {
     line-height: 55px;
 }
 .header__title {
- padding-left: 200px;
+    padding-left: 200px;
     padding-top: 50px;
+}
+/*-----------------main----------------------*/
+.main__link, .triangle-item {
+    text-decoration: none;
+    color: grey;
+    opacity: 50%;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    transition: color .5s;
+}
+.main__link:hover {
+    opacity: 1;
+}
+.triangle-item:hover {
+    opacity: 1;
+}
+
+.main__list-item {
+    list-style-type: none;
+    margin-left: 30px;
+}
+.main__list{
+    display: flex;
+}
+.main__title {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 /*-----------map---------------------------*/
 .section__map {
@@ -231,4 +261,10 @@ body {
 .popup:target .popup__content {
     transform: perspective(600px) translate(0px, 0px) rotateX(0deg);
     opacity: 1;
+}
+/*----------------button-----------*/
+.button__text {
+    color: #E1E1E1;
+    text-decoration: none;
+    text-transform: uppercase;
 }
