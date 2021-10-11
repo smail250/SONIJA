@@ -117,9 +117,7 @@ body {
 .main__content-img {
     right: -650px;
     position: absolute;
-
 }
-
 /*-----------section__img__button----------------------------------------*/
 
 .container__section--pink, .container__section--green, .container__section--yellow {
@@ -322,7 +320,6 @@ body {
     font-size: 36px;
     line-height: 36px;
 }
-
 .section__footer {
     width: 1157px;
     margin: 0 auto;

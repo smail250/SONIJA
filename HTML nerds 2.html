@@ -33,27 +33,175 @@
     </div>
 </header>
 <main>
-    <div class="main__title">
-        <p class="main__title-text">СТОИМОСТЬ:</p>
-        <p class="main__title-text">СОРТИРОВАТЬ:</p>
-        <ul class="main__list">
-            <li class="main__list-item">
-                <a class="main__link" href="#">по цене</a>
-            </li>
-            <li class="main__list-item">
-                <a class="main__link" href="#">по типу</a>
-            </li>
-            <li class="main__list-item">
-                <a class="main__link" href="#">по названию</a>
-            </li>
-            <li class="main__list-item">
-                <a class="triangle-item" href="#">▼</a>
-            </li>
-            <li class="main__list-item">
-                <a class="triangle-item" href="#">▲</a>
-            </li>
-        </ul>
+<section class="select">
+    <div class="container__catalog">
+        <div class="select__checked">
+            <div class="title-text">
+               <p class="main__title-text">стоимость:</p>
+            </div>
+            <div class ="container__select">
+                <div class="range">
+                    <div class="first-circle">
+                    </div>
+                    <div class="second-circle">
+                    </div>
+                </div>
+            </div>
+        <div>
+                <form class="select__checked-form" action="#" method="get">
+                    <div class="prise_select">
+                        <p class="placeholder-text">от</p>
+                        <input class="field_select" placeholder="" type="tel" name="user_value" value="0">
+                        <p class="placeholder-text">до</p>
+                        <input class="field_select" placeholder="" type="tel" name="user_value" value="15000">
+                    </div>
+                    <div class="select__radio">
+                        <p class="main__title-text">сетка:</p>
+                        <div class="row-radio">
+                            <input class="main__radio" checked type="radio" name="net" value="1"  id="adapt"/>
+                            <label class="select__label" for="adapt"><span class="text-radio">Адаптивная</span></label>
+                        </div>
+                           <div class="row-radio">
+                               <input class="main__radio" type="radio" name="net" value="2" id="fixed"/>
+                               <label class="select__label" for="fixed"><span class="text-radio">Фиксированная</span></label>
+                           </div>
+                        <div class="row-radio">
+                            <input class="main__radio" type="radio" name="net" value="3" id="stretch"/>
+                            <label class="select__label" for="stretch"><span class="text-radio">Резиновая</span></label>
+                        </div>
+                        <div>
+                            <p class="main__title-text">особенности:</p>
+                            <div class="row">
+                                <input class="select-checkbox" type="checkbox" name="" value="" id="slider"/>
+                                <label class="select__label" for="slider"><span>Слайдер</span></label>
+                            </div>
+                            <div class="row">
+                                <input class="select-checkbox" type="checkbox" name="" value="" id="block"/>
+                                <label class="select__label" for="block"><span>Блок преимуществ</span></label>
+                            </div>
+                            <div class="row">
+                                <input class="select-checkbox" checked type="checkbox" name="" value="" id="news"/>
+                                <label class="select__label" for="news"><span>Новости</span></label>
+                            </div>
+                            <div class="row">
+                                <input class="select-checkbox" type="checkbox" name="" value="" id="gallery"/>
+                                <label class="select__label" for="gallery"><span>Галерея</span></label>
+                            </div>
+                            <div class="row">
+                                <input class="select-checkbox" type="checkbox" name="" value=""  id="can"/>
+                                <label class="select__label" for="can"><span>Корзина</span></label>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="select__button" type="submit"><a class="select__button_text">Показать</a></button>
+                </form>
+            </div>
+        </div>
     </div>
+    <div class="select__wrapper">
+        <div class="section__gallery">
+            <div class="main__title">
+                <p class="main__title-text">сортировать:</p>
+                <ul class="main__list">
+                    <li class="main__list-item">
+                        <a class="main__link" href="#">по цене</a>
+                    </li>
+                    <li class="main__list-item">
+                        <a class="main__link" href="#">по типу</a>
+                    </li>
+                    <li class="main__list-item">
+                        <a class="main__link" href="#">по названию</a>
+                    </li>
+                    <li class="main__list-item">
+                        <a class="triangle-item" href="#">▼</a>
+                    </li>
+                    <li class="main__list-item">
+                        <a class="triangle-item" href="#">▲</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="gallery">
+                <div>
+                    <div class="gallery__img">
+                        <img src="img/Mask Group.png" alt="">
+                        <div class="gallery__img-popup">
+                            <p class="pop__title">
+                                <a class="main__title-text gallery__text" href="#">SEDONA SITE</a>
+                            </p>
+                            <p class="pop__cont">Информационный сайт<br>Для туристов</p>
+                            <button class="map__but popup__gallery" href="#"><a class="button__text">9900 p</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="gallery__img">
+                        <img src="img/Mask Group (1).png" alt="">
+                        <div class="gallery__img-popup">
+                            <p class="pop__title">
+                                <a class="main__title-text gallery__text" href="#">PINK APP</a>
+                            </p>
+                            <p class="pop__cont">Продуктовый лендинг
+                            <br>приложения для iOS и Android</p>
+                            <button class="map__but popup__gallery" href="#"><a class="button__text">9900 p</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="gallery__img">
+                        <img src="img/Mask Group (2).png" alt="">
+                        <div class="gallery__img-popup">
+                            <p class="pop__title">
+                                <a class="main__title-text gallery__text" href="#">PINK APP</a>
+                            </p>
+                            <p class="pop__cont">Продуктовый лендинг
+                                <br>приложения для iOS и Android</p>
+                            <button class="map__but popup__gallery" href="#"><a class="button__text">9900 p</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="gallery__img">
+                        <img src="img/Mask Group (3).png" alt="">
+                        <div class="gallery__img-popup">
+                            <p class="pop__title">
+                               <a class="main__title-text gallery__text" href="#">PINK APP</a>
+                            </p>
+                            <p class="pop__cont">Продуктовый лендинг
+                                <br>приложения для iOS и Android</p>
+                            <button class="map__but popup__gallery" href="#"><a class="button__text">9900 p</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="gallery__img">
+                        <img src="img/Mask Group (4).png" alt="">
+                        <div class="gallery__img-popup">
+                            <p class="pop__title">
+                                <a class="main__title-text gallery__text" href="#">PINK APP</a>
+                            </p>
+                            <p class="pop__cont">Продуктовый лендинг
+                                <br>приложения для iOS и Android</p>
+                            <button class="map__but popup__gallery" href="#"><a class="button__text">9900 p</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="gallery__img">
+                        <img src="img/Mask Group (5).png" alt="">
+                        <div class="gallery__img-popup">
+                            <p class="pop__title">
+                                <a class="main__title-text gallery__text" href="#">PINK APP</a>
+                            </p>
+                            <p class="pop__cont">Продуктовый лендинг
+                                <br>приложения для iOS и Android</p>
+                            <button class="map__but popup__gallery" href="#"><a class="button__text">9900 p</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <section class="section__map">
     <div class="section__map--marker">
         <img class="map__marker" src="img/map-marker 1.png" alt="">
@@ -111,10 +259,12 @@
             <div class="footer__text">
                 <p class="footer__text-text">Давайте дружить, это выгодно!</p>
                 <p class="footer__text-sub">Скидка 10% для друзей из социальных сетей.</p>
+
             </div>
         </div>
     </div>
 </footer>
+
 
 </body>
 </html>
