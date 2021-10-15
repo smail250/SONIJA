@@ -23,6 +23,10 @@ body {
 .menu__link:hover {
     color: #FB565A;
 }
+.menu__link1:hover {
+    color: #FB565A;
+}
+
 .menu__list, .menu__link  {
     display: flex;
 }
@@ -410,6 +414,7 @@ body {
     transform: perspective(600px) translate(0px, 0px) rotateX(0deg);
     opacity: 1;
 }
+
 
 
 
