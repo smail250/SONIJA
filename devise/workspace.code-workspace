@@ -1,0 +1,40 @@
+{
+	"folders": [
+		{
+			"path": "..\\desktop-tutorial"
+		},
+		{
+			"path": "..\\SONIJA"
+		},
+		{
+			"path": "..\\sonya"
+		},
+		{
+			"path": "..\\start"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "C:\\Users\\Александр\\Desktop\\мой код"
+		}
+	],
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+		
+			
+
+
+
+		
+		
+			{
+				"type": "pwa-chrome",
+				"request": "launch",
+				"name": "Open HTML nerds 2.html",
+				"file": "d:\\GitHub\\SONIJA\\HTML nerds 2.html"
+			}
+		]
+	}
+}

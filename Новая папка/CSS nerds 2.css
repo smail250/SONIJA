@@ -381,10 +381,15 @@ body {
     margin-right: 20px;
     text-transform: uppercase;
     color: black;
-
+}
+.butt__link:hover {
+    border: solid 3px #E1E1E1;
+    background: white;
+    transition: 0.5;
 }
 .butt-1 {
     padding: 15px 90px 15px 90px;
+
 }
 .section__button_list {
     display:flex;
